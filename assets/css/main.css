@@ -151,10 +151,20 @@
 }
 
 #listrevenue{
-    font-size: 14px; 
+    font-size: 1vw; 
     width: 100%;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 4rem 2rem 2rem 2rem;
     color: #fff;
+}
+#clubs_donut {
+    font-size: 0.9vw; 
+    width: 120%; 
+    color: #fff
+}
+#results_affect {
+    font-size: 0.9vw; 
+    width: 100%; 
+    color: #fff
 }
 #listrevenue2{
     font-size: 14px; 
@@ -341,7 +351,7 @@ header {
   .menu-block {
 	position: relative;
 	box-shadow: 0 0 25px 0px rgba(0,0,0,1);
-    border-radius: 100px;
+        border-radius: 100px;
   }
   .menu a {
 	color: #222;
@@ -363,13 +373,28 @@ header {
 	transition-delay: 0.1s;
   }
   .menu a:nth-child(2) {
-	transition-delay: 0.2s;
+	transition-delay: 0.15s;
   }
   .menu a:nth-child(3) {
-	transition-delay: 0.3s;
+	transition-delay: 0.2s;
   }
   .menu a:nth-child(4) {
+	transition-delay: 0.25s;
+  }
+  .menu a:nth-child(5) {
+	transition-delay: 0.3s;
+  }
+  .menu a:nth-child(6) {
+	transition-delay: 0.35s;
+  }
+  .menu a:nth-child(7) {
 	transition-delay: 0.4s;
+  }
+  .menu a:nth-child(8) {
+	transition-delay: 0.45s;
+  }
+  .menu a:nth-child(9) {
+	transition-delay: 0.5s;
   }
   .menu_active a:nth-child(1) {
 	transform: translate(200%, 0%);
@@ -382,6 +407,21 @@ header {
   }
   .menu_active a:nth-child(4) {
 	transform: translate(650%, 0%);
+  }
+  .menu_active a:nth-child(5) {
+	transform: translate(800%, 0%);
+  }
+  .menu_active a:nth-child(6) {
+	transform: translate(950%, 0%);
+  }
+  .menu_active a:nth-child(7) {
+	transform: translate(1100%, 0%);
+  }
+  .menu_active a:nth-child(8) {
+	transform: translate(1250%, 0%);
+  }
+  .menu_active a:nth-child(9) {
+	transform: translate(1300%, 0%);
   }
 /* Box Model */
 
